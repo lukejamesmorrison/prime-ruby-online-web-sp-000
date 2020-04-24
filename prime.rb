@@ -16,6 +16,8 @@ def prime?(number)
     end
     i += 6
   end
+  
+  true
 end
 
 
