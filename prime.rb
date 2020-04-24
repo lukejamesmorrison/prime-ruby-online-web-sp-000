@@ -1,7 +1,7 @@
 def prime?(number)
-  # a prime must be greater than 1
+  # a prime must be greater than 2
   # odds cannot be prime
-  # odds can only divide by themselves - use base 3
+  # odds can only divide by themselves - start with 2 and 3
   
   if number <= 3 
     return number > 1
