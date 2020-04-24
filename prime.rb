@@ -4,7 +4,7 @@ def prime?(number)
     return false
   end
   
-  # odds can only divide by themselves
+  # odds can only divide by themselves - use base 3
   
   
   
