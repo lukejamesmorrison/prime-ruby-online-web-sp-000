@@ -1,6 +1,6 @@
 def prime?(number)
   #a prime must be greater than 1
-  if if number < 1 do
+  if if number < 2 do
     return false
   end
   
