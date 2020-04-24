@@ -1,7 +1,4 @@
 def prime?(number)
-  
-  
-  
   # odds cannot be prime
   if number.even? do
     return false
