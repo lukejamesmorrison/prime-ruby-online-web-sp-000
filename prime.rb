@@ -9,7 +9,12 @@ def prime?(number)
     return false
   end
   
-  true
+  i = 5
+  while i**2 < number do
+    if number % i == 0 or number % (i + 2) == 0
+      return false
+    end
+  end
 end
 
 
