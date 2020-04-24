@@ -6,9 +6,11 @@ def prime?(number)
   if number < 2 || number.even?
     return false
   elsif number % 3 != 0
-  
-  if 0) && number != 2
-  
-  true
+    return false
+  elsif number != 2
+    return false
+  else
+    return true
+  end
 
 end
