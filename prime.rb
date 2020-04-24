@@ -14,6 +14,7 @@ def prime?(number)
     if number % i == 0 or number % (i + 2) == 0
       return false
     end
+    i += 6
   end
 end
 
