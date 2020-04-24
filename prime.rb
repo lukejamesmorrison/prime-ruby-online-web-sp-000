@@ -11,16 +11,16 @@ def prime?(number)
 end
 
 
-if n ≤ 3 then
-        return n > 1
-    else if n mod 2 = 0 or n mod 3 = 0
-        return false
+# if n ≤ 3 then
+#         return n > 1
+#     else if n mod 2 = 0 or n mod 3 = 0
+#         return false
 
-    let i ← 5
+#     let i ← 5
 
-    while i × i ≤ n do
-        if n mod i = 0 or n mod (i + 2) = 0
-            return false
-        i ← i + 6
+#     while i × i ≤ n do
+#         if n mod i = 0 or n mod (i + 2) = 0
+#             return false
+#         i ← i + 6
 
-    return true
+#     return true
