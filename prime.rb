@@ -1,5 +1,5 @@
 def prime?(number)
-  #a prime must be greater than 0
+  #a prime must be greater than 1
   
   # odds cannot be prime
   if number.even? do
