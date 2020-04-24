@@ -5,7 +5,7 @@ def prime?(number)
   end
   
   # odds cannot be prime
-  if number.even?
+  if number.even? && number != 2
     return false
   end
   
