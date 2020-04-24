@@ -4,6 +4,7 @@ def prime?(number)
   # odds can only divide by themselves - use base 3
   
   if number <= 3 
+    return number > 1
   end
 end
 
