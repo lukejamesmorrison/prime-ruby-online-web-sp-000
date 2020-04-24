@@ -3,12 +3,21 @@ def prime?(number)
   # odds cannot be prime
   # odds can only divide by themselves - use base 3
   
-  if (number < 2 || number.even?) && number != 2
-    return false
-  elsif number % 3 == 0 && number != 2
-    return false
-  else
-    return true
+  if (number <= 3 
   end
-
 end
+
+
+if n ≤ 3 then
+        return n > 1
+    else if n mod 2 = 0 or n mod 3 = 0
+        return false
+
+    let i ← 5
+
+    while i × i ≤ n do
+        if n mod i = 0 or n mod (i + 2) = 0
+            return false
+        i ← i + 6
+
+    return true
