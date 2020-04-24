@@ -3,9 +3,11 @@ def prime?(number)
   # odds cannot be prime
   # odds can only divide by themselves - use base 3
   
-  if (number < 2 || number.even? || number % 3 != 0) && number != 2
+  if number < 2 || number.even?
     return false
-  end
+  elsif number % 3 != 0
+  
+  if 0) && number != 2
   
   true
 
