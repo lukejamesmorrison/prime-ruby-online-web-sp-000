@@ -3,7 +3,7 @@ def prime?(number)
   # odds cannot be prime
   # odds can only divide by themselves - use base 3
   
-  if (number <= 3 
+  if number <= 3 
   end
 end
 
