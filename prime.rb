@@ -5,7 +5,9 @@ def prime?(number)
   end
   
   # odds can only divide by themselves - use base 3
-  
+  if number % 3 != 0
+    return false
+  end
   
   
   
